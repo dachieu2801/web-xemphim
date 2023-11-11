@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  overflow-x: auto;
+  gap: 0.8rem;
+  padding: 1rem 1rem 1rem 2rem;
+  flex-direction: row;
+  scroll-behavior: smooth;
+  margin-bottom: 8px;
+}
+.wrapper img {
+  width: auto;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+  transition-duration: 0.5s;
+  user-select: none;
+}
+.origin {
+  height: 180px;
+}
+
+.other {
+  height: 100px;
+}
+.wrapper p {
+  color: #fff;
+}
+/* width */
+.wrapper::-webkit-scrollbar {
+  height: 6px;
+}
+/* Track */
+.wrapper::-webkit-scrollbar-track {
+  background: #404040;
+  cursor: pointer;
+}
+
+/* Handle */
+.wrapper::-webkit-scrollbar-thumb {
+  background: #001900;
+}
+
+.wrapper img:hover {
+  transform: scale(1.12);
+  -webkit-transform: scale(1.12);
+  -moz-transform: scale(1.12);
+  -o-transform: scale(1.12);
+  -ms-transform: scale(1.12);
+  cursor: pointer;
+
+}

@@ -1,0 +1,20 @@
+.app {
+  background-color: #1a1a1a;
+  position: relative;
+  color: #fff;
+}
+
+.form{
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  transform: translate(-50%, 0);
+}
+
+.search{
+  padding: 300px 2rem 2rem 2rem;
+  /* position: absolute; */
+  /* left: 50%; */
+  /* top: 300px; */
+  /* transform: translate(-50%, 0); */
+}

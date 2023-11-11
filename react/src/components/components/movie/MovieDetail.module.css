@@ -1,0 +1,39 @@
+.wrapper {
+  color: aliceblue;
+  z-index: 1;
+  display: grid;
+  padding-top: 32px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content {
+  width: 100%;
+  padding: 4px 2rem 0 3rem;
+}
+
+.wrapper iframe {
+  padding-right: 1rem;
+  border: none;
+}
+
+.wrapper h1 {
+  font-size: 1.8rem;
+  border-bottom: 2px solid #fff;
+  font-weight: 500;
+  padding-bottom: 14px;
+}
+
+.detail {
+  padding: 14px 0;
+}
+
+.load {
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.wrapper img {
+  height: 400px;
+  padding-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+}

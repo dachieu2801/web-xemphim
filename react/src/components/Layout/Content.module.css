@@ -1,0 +1,13 @@
+.wrapper{
+  background-color: #1a1a1a;
+}
+
+.wrapper h2 {
+color: #fff;
+padding-left: 1rem;
+user-select: none;
+}
+
+.wrapper div{
+  padding-bottom: 40px;
+}

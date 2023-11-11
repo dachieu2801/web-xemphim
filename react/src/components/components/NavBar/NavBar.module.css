@@ -1,0 +1,77 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  padding: 0 1rem;
+}
+.title {
+  margin: 0;
+  color: red;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+}
+.icon {
+  padding: 0 0 0 35px;
+  line-height: 60px;
+  width: 60px;
+  height: 60px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.active {
+  background: RGBA(0, 0, 0, 1);
+  animation: color 1s linear;
+}
+
+.hidden {
+  background: RGBA(0, 0, 0, 0);
+  animation: color1 1s linear;
+}
+
+@keyframes color {
+  0% {
+    background: RGBA(0, 0, 0, 0);
+  }
+  20% {
+    background: RGBA(0, 0, 0, 0.2);
+  }
+  40% {
+    background: RGBA(0, 0, 0, 0.4);
+  }
+  60% {
+    background: RGBA(0, 0, 0, 0.6);
+  }
+  80% {
+    background: RGBA(0, 0, 0, 0.8);
+  }
+  100% {
+    background: RGBA(0, 0, 0, 1);
+  }
+}
+
+@keyframes color1 {
+  0% {
+    background: RGBA(0, 0, 0, 1);
+  }
+  20% {
+    background: RGBA(0, 0, 0, 0.8);
+  }
+  40% {
+    background: RGBA(0, 0, 0, 0.6);
+  }
+  60% {
+    background: RGBA(0, 0, 0, 0.4);
+  }
+  80% {
+    background: RGBA(0, 0, 0, 0.2);
+  }
+  100% {
+    background: RGBA(0, 0, 0, 0);
+  }
+}

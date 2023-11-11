@@ -1,0 +1,48 @@
+.wrapper {
+  width: 600px;
+  height: 150px;
+  background: #fff;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-bottom: 2px solid #33ccff;
+}
+.icon {
+  padding: 0 0 0 35px;
+  line-height: 30px;
+  width: 60px;
+  margin-right: 0.5rem;
+  color: #000;
+  cursor: pointer;
+}
+.wrapper input {
+  border: none;
+  width: 80%;
+  height: 30px;
+  font-size: 1rem;
+}
+.button {
+  padding-left: 385px;
+}
+.button button {
+  border: none;
+  cursor: pointer;
+  border: none;
+  padding: 0.4rem 1.2rem;
+  margin: 2rem 0.8rem 0.4rem 0;
+  font-size: 0.9rem;
+}
+.button button:first-child {
+  background: #fff;
+}
+.button button:last-child {
+  background: #33ccff;
+  color: #fff;
+}
+
+.err::placeholder {
+  color: #ff4d4d;
+}
