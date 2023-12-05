@@ -23,7 +23,6 @@ To get started with MovieHub:
 Clone the Repository
 
 git clone https://github.com/your-username/MovieHub.git
-cd MovieHub
 
 # Contribution
 
@@ -31,5 +30,7 @@ If you would like to contribute to the project, feel free to create pull request
 
 # Contact
 Email: ankhieu322@gmail.com
+
 GitHub: https://github.com/dachieu2801
+
 Thank you 
