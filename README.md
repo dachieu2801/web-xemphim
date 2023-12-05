@@ -22,7 +22,7 @@ To get started with MovieHub:
 
 Clone the Repository
 
-git clone https://github.com/your-username/MovieHub.git
+git clone https://github.com/dachieu2801/web-xemphim
 
 # Contribution
 
