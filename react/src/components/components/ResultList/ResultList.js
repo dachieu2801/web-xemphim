@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import MovieDetail from '../movie/MovieDetail'
-
+import URL from '../../../url'
 import styles from './ResultList.module.css'
 import IconSearch from '../NavBar/IconSearch'
 
@@ -41,7 +41,7 @@ function ResultList() {
         setIsLoading(true)
         setTotalPage('')
         setIsDetailMovie(false)
-        const response = await fetch(`http://localhost:5000/movies/search`, {
+        const response = await fetch(`${URL}movies/search`, {
           method: 'POST',
           body: JSON.stringify({
             keyword, genre, mediaType, language, year, page, userToken: 'RYoOcWM4JW'

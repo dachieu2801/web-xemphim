@@ -1,0 +1,48 @@
+.wrapper{
+  margin: 10px 16px ;
+  margin-bottom: 100px;
+}
+.title{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.wrapper-section{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap:20px;
+
+}
+
+.buyticket{
+  text-align: center;
+  background-color: red;
+  color: #fff;
+  padding-bottom: 2px;
+  margin-top: -4px;
+}
+.item img{
+ 
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+
+}
+.item{
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.section{
+  margin: 2px 4px;
+}
+
+.section div {
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 4px;
+}
+.section p {
+  margin-bottom: 4px;
+ }

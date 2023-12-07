@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-
+import URL from '../../../url'
 import styles from './MovieDetail.module.css'
 
 function MovieDetail(props) {
@@ -9,15 +9,15 @@ function MovieDetail(props) {
 
   //chứa data của movie mà đã click
   const detailMobie = props.movie
+  console.log(detailMobie);
   // film_id
   useEffect(() => {
     setIsLoading(true)
     const fetchDetail = async () => {
-      const response = await fetch(`http://localhost:5000/movies/video`, {
+      const response = await fetch(`${URL}movies/video`, {
         method: 'POST',
         body: JSON.stringify({
           film_id: detailMobie.id,
-          userToken: 'RYoOcWM4JW'
         }),
         headers: { 'Content-Type': 'application/json' },
       })

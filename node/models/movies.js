@@ -7,7 +7,6 @@ const movies = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
 //trailer
 const videos = require('./videoList')
 let video
-
 //genre
 //sỏrt data
 const sortData = (key) => {

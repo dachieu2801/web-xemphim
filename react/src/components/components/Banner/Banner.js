@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-
+import URL from '../../../url'
 import styles from './Banner.module.css'
 
 function Banner(props) {
@@ -11,7 +11,7 @@ function Banner(props) {
   useEffect(() => {
     const fetchNetflixOriginals = async () => {
       try {
-        const response = await fetch('http://localhost:5000/movies/trending/RYoOcWM4JW');
+        const response = await fetch(`${URL}movies/trending`);
         const responseData = await response.json();
         //lỗi sai nếu có
         if (responseData.message) {

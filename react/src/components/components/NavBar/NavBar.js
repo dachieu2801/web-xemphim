@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import IconSearch from './IconSearch.js';
 
 import styles from './NavBar.module.css'
 
-
 function NavBar() {
-
+  const navigate = useNavigate()
   const [NavBarBG, setNavBarBG] = useState('rgba(0,0,0,0)')
 
   //thay đổi BG khi lăn chuột từ 0-100px
@@ -28,17 +28,23 @@ function NavBar() {
   }
   changeBackgroundHandle()
 
- //chuyển page
+  //chuyển page
   const toHome = () => {
-    window.location.replace('/')
+    navigate('/')
+  }
+  const toBook = () => {
+    navigate('/book')
   }
   const toSearch = () => {
-    window.location.replace('/search')
+    navigate('/search')
   }
   return (
     <div style={{ background: NavBarBG }} className={styles.wrapper}>
       <h2 onClick={toHome} className={styles.title}>
         Movies App
+      </h2>
+      <h2 onClick={toBook} className={styles.title}>
+        Cinema
       </h2>
       <div onClick={toSearch} className={styles.icon}>
         <IconSearch color='#fff' />

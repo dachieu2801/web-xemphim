@@ -1,16 +1,16 @@
 import MovieList from '../components/movie/MovieList'
-
+import URL from '../../url'
 import styles from './Content.module.css'
 
 const requests = {
-  fetchNetflixOriginals: `http://localhost:5000/movies`,
-  fetchTrending: `http://localhost:5000/movies/trending`,
-  fetchTopRated: `http://localhost:5000/movies/top-rate`,
-  fetchActionMovies: `http://localhost:5000/movies/discover/28`,
-  fetchComedyMovies: `http://localhost:5000/movies/discover/35`,
-  fetchHorrorMovies: `http://localhost:5000/movies/discover/27`,
-  fetchRomanceMovies: `http://localhost:5000/movies/discover/10749`,
-  fetchDocumentaries: `http://localhost:5000/movies/discover/99`,
+  fetchNetflixOriginals: `${URL}movies`,
+  fetchTrending: `${URL}movies/trending`,
+  fetchTopRated: `${URL}movies/top-rate`,
+  fetchActionMovies: `${URL}movies/discover/28`,
+  fetchComedyMovies: `${URL}movies/discover/35`,
+  fetchHorrorMovies: `${URL}movies/discover/27`,
+  fetchRomanceMovies: `${URL}movies/discover/10749`,
+  fetchDocumentaries: `${URL}movies/discover/99`,
 }
 
 function Content() {
