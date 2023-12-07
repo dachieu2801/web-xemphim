@@ -6,6 +6,10 @@ Welcome to MovieHub, your go-to destination for a seamless and enriched movie-wa
 
 MovieHub aims to redefine how you experience movies online. With a user-friendly interface and a plethora of features, MovieHub makes movie watching, booking, and exploration effortless and enjoyable.
 
+ - Link demo Server app : https://server-appmovie.onrender.com/
+ - Link demo client app : https://client-movieapp.vercel.app/
+ - Link demo admin rapp : https://admin-movieapp.vercel.app/
+
 # Key Features
 
 1. Flexible Ticket Booking: Choose your seats effortlessly with our intuitive seat selection system, making the ticket booking process a breeze.

@@ -15,7 +15,7 @@ function App() {
     if (!idMovie && !movieDate && !movieTime) {
       setErr('Please enter all field')
     } else {
-      const response = await fetch(`http://localhost:5000/showtime/add`, {
+      const response = await fetch(`https://server-appmovie.onrender.com/showtime/add`, {
         method: 'POST',
         body: JSON.stringify({
           idMovie, movieDate, movieTime
