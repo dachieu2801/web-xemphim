@@ -8,7 +8,7 @@ MovieHub aims to redefine how you experience movies online. With a user-friendly
 
  - Link demo Server app : https://server-appmovie.onrender.com/
  - Link demo client app : https://client-movieapp.vercel.app/
- - Link demo admin rapp : https://admin-movieapp.vercel.app/
+ - Link demo admin app : https://admin-movieapp.vercel.app/
 
 # Key Features
 

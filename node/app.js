@@ -17,6 +17,7 @@ app.use(cors());
 
 //đọc boy
 app.use(express.urlencoded({ extended: true }));
+
 //đọc data json
 app.use(express.json())
 
